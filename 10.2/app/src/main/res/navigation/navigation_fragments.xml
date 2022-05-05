@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_fragments"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.project1.ui.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+    <fragment
+        android:id="@+id/memesListFragment"
+        android:name="com.example.project1.ui.memes.MemesListFragment"
+        android:label="MemesListFragment"
+        tools:layout="@layout/fragment_memes" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.project1.ui.history.HistoryFragment"
+        android:label="HistoryFragment"
+        tools:layout="@layout/fragment_history" />
+
+</navigation>
